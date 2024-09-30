@@ -19,7 +19,6 @@ public class WaitAndNotifyDemo {
                 throw new RuntimeException(e);
             };
         });
-
         one.start();
         two.start();
     }
